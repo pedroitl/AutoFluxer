@@ -1,28 +1,26 @@
+
 package com.autofluxer.model;
 
 import jakarta.persistence.*;
-import lombok.*;
-import org.springframework.beans.factory.annotation.Autowired;
+        import lombok.*;
 
 @Entity
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 
-public class Usuario {
-
+public class Veiculo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long idUsuario;
 
-    private String nome;
-
-    @Column(unique = true)
-    private String email;
-
-    private String senha;
-
-    private String perfil;
-
-
+    private long idVeiculo;
+    private String marca;
+    private String modelo;
+    private Integer ano;
+    private String cor;
+    private String placa;
+    private String chassi;
+    private String renavam;
+    private String tipo;
+    private String status;
 }
