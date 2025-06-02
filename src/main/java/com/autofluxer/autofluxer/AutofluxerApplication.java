@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AutofluxerApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(AutofluxerApplication.class, args);
 	}
 
