@@ -38,18 +38,31 @@ https://autofluxerproject.onrender.com/swagger-ui/index.html
 ## 🗂️ Estrutura de Diretórios
 
 src
+
 └── main
+
 ├── java
+
 │ └── com
+
 │ └── autofluxer
+
 │ ├── controller → Controladores REST (Veiculo, Cliente, Usuario, Movimentacao)
+
 │ ├── model → Modelos/Entidades JPA
+
 │ ├── repository → Interfaces de acesso ao banco (JPA)
+
 │ ├── service → Lógica de negócio (Services)
+
 │ ├── config → Configurações (Swagger)
+
 │ └── AutofluxerApplication.java → Classe principal
+
 └── resources
+
 ├── application.properties → Configurações da aplicação
+
 └── static/templates → (Se necessário)
 
 ## 🚀 Como Executar Localmente
@@ -67,15 +80,19 @@ git clone https://github.com/pedroitl/AutoFluxer.git
 cd AutoFluxer
 
 ✅ Build do projeto:
+
 bash
 Copiar
 Editar
 mvn clean package
+
 ✅ Executar o projeto:
+
 bash
 Copiar
 Editar
 java -jar target/autofluxer-0.0.1-SNAPSHOT.jar
+
 ✔️ Acesse no navegador:
 http://localhost:8080/swagger-ui/index.html
 
@@ -92,8 +109,11 @@ arduino
 Copiar
 Editar
 https://autofluxerproject.onrender.com/swagger-ui/index.html
+
 ➕ Exemplos de Endpoints:
+
 Método	Endpoint	Descrição
+
 GET	/api/veiculos	Listar todos os veículos
 POST	/api/veiculos	Cadastrar um veículo
 GET	/api/veiculos/{id}	Buscar veículo por ID
@@ -121,42 +141,44 @@ User: sa
 Password: (vazio)
 
 🐳 Deploy com Docker (Render ou local)
+
 ✅ Build da imagem Docker:
+
 bash
 Copiar
 Editar
 docker build -t autofluxer-api .
+
 ✅ Executar o container:
+
 bash
 Copiar
 Editar
 docker run -p 8080:8080 autofluxer-api
+
 ✅ Acesse:
+
 bash
 Copiar
 Editar
 http://localhost:8080/swagger-ui/index.html
+
 🔥 Tecnologias usadas
+
 ✅ Java 24
-
 ✅ Spring Boot
-
 ✅ Maven
-
 ✅ Docker
-
 ✅ Spring Data JPA
-
 ✅ H2 Database
-
 ✅ Swagger (SpringDoc OpenAPI)
-
 ✅ Render (Deploy Cloud)
 
 🤝 Contribuição
 Contribuições são bem-vindas! Sinta-se livre para abrir uma issue ou enviar um pull request.
 
 👨‍💻 Autor
+
 Desenvolvido por Pedro ITL
 ➡️ GitHub
 
