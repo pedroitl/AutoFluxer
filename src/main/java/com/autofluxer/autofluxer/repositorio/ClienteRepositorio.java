@@ -1,6 +1,6 @@
-package com.autofluxer.repository;
+package com.autofluxer.autofluxer.repositorio;
 
-import com.autofluxer.model.Cliente;
+import com.autofluxer.autofluxer.model.Cliente;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

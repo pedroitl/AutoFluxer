@@ -1,4 +1,4 @@
-package com.autofluxer.model;
+package com.autofluxer.autofluxer.model;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -20,9 +20,49 @@ public class Usuario {
     @Column(unique = true)
     private String email;
 
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
+
+    public String getPerfil() {
+        return perfil;
+    }
+
+    public void setPerfil(String perfil) {
+        this.perfil = perfil;
+    }
+
+    public Long getIdUsuario() {
+        return idUsuario;
+    }
+
+    public void setIdUsuario(Long idUsuario) {
+        this.idUsuario = idUsuario;
+    }
+
     private String senha;
 
     private String perfil;
+
+    public String getSenha() {
+        return senha;
+    }
 
 
 }

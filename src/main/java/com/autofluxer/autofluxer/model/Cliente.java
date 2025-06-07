@@ -1,4 +1,4 @@
-package com.autofluxer.model;
+package com.autofluxer.autofluxer.model;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -16,6 +16,14 @@ public class Cliente {
     private Long idCliente;
 
     private String nome;
+
+    public Long getIdCliente() {
+        return idCliente;
+    }
+
+    public void setIdCliente(Long idCliente) {
+        this.idCliente = idCliente;
+    }
 
     private String cpfCnpj;
 
