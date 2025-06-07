@@ -1,4 +1,4 @@
-package com.autofluxer.autofluxer.model;
+package com.autofluxer.model;
 
 import jakarta.persistence.*;
 import lombok.*;

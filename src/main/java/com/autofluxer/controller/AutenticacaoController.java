@@ -1,6 +1,6 @@
-package com.autofluxer.autofluxer.controller;
+package com.autofluxer.controller;
 
-import com.autofluxer.autofluxer.service.AutenticacaoService;
+import com.autofluxer.service.AutenticacaoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

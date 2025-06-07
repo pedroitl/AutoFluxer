@@ -1,4 +1,4 @@
-package com.autofluxer.autofluxer;
+package com.autofluxer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,7 +1,7 @@
-package com.autofluxer.autofluxer.service;
+package com.autofluxer.service;
 
-import com.autofluxer.autofluxer.model.Cliente;
-import com.autofluxer.autofluxer.repositorio.ClienteRepositorio;
+import com.autofluxer.model.Cliente;
+import com.autofluxer.repositorio.ClienteRepositorio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

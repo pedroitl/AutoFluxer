@@ -1,7 +1,7 @@
-package com.autofluxer.autofluxer.controller;
+package com.autofluxer.controller;
 
-import com.autofluxer.autofluxer.model.Usuario;
-import com.autofluxer.autofluxer.service.UsuarioService;
+import com.autofluxer.model.Usuario;
+import com.autofluxer.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,7 +1,7 @@
-package com.autofluxer.autofluxer.service;
+package com.autofluxer.service;
 
-import com.autofluxer.autofluxer.model.Veiculo;
-import com.autofluxer.autofluxer.repositorio.VeiculoRepositorio;
+import com.autofluxer.model.Veiculo;
+import com.autofluxer.repositorio.VeiculoRepositorio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
